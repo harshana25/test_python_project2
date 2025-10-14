@@ -14,3 +14,6 @@ ask_the_function =input('Please select the operation (+,/,*,-)\n')
 if ask_the_function == '+':
     result = number_1 + number_2
     print(f'The result is: {result}')
+elif ask_the_function == '/':
+    result = number_1 / number_2
+    print(f'The result is: {result}')
