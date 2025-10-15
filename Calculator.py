@@ -21,4 +21,4 @@ elif ask_the_function == '/':
 # Substraction Feature
 elif ask_the_function == '-':
     result = number_1 - number_2
-    print(f'The result is: {result}')
+    print(f'The result is {number_1} and  {number_2}: {result}')
