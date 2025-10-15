@@ -18,6 +18,10 @@ elif ask_the_function == '/':
     result = number_1 / number_2
     print(f'The result is: {result}')
 
+# Substraction Feature
+elif ask_the_function == '-':
+    result = number_1 - number_2
+    print(f'The result is {number_1} and  {number_2}: {result}')
 # Multiplication Feature
 elif ask_the_function == '*':
     result = number_1 * number_2
